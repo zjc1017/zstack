@@ -10,7 +10,7 @@ platform_is_big_endian()
 		return 1;
 	}
 }
-
+// just a test
 uint32_t
 htonl(uint32_t hostlong)
 {

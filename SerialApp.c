@@ -87,6 +87,9 @@
 #if !defined( SERIAL_APP_PORT )
 #define SERIAL_APP_PORT  0
 #endif
+ #if !defined( SERIAL_APP_PORT )
+#define SERIAL_APP_PORT  0
+#endif
 
 #if !defined( SERIAL_APP_BAUD )
 #define SERIAL_APP_BAUD  HAL_UART_BR_38400
